@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="312" PostSharpLinesOfCode="0" EnhancedTypesCount="7" SchemaVersion="1" PostSharpVersion="5.0.31.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[VO]VO.ExceptionHandler.PrintExceptionAttribute">
+    <Instance Declaration="#2=T:[DAO]DAO.Access.ClientsDAO" Id="d9edb4fe514b3519">
+      <Target Target="#3=M:[DAO]DAO.Access.ClientsDAO::Create(VO.Entities.ClientUser)">
+        <JoinPoint Advising="#1" Description="#4=Wrapped by advice(s) OnException" Ordinal="0" />
+      </Target>
+      <Target Target="#5=M:[DAO]DAO.Access.ClientsDAO::Update(VO.Entities.ClientUser)">
+        <JoinPoint Advising="#1" Description="#4" />
+      </Target>
+      <Target Target="#6=M:[DAO]DAO.Access.ClientsDAO::Delete(VO.Entities.ClientUser)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="2" />
+      </Target>
+      <Target Target="#7=M:[DAO]DAO.Access.ClientsDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.ClientUser,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="3" />
+      </Target>
+      <Target Target="#8=M:[DAO]DAO.Access.ClientsDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="4" />
+      </Target>
+      <Target Target="#9=M:[DAO]DAO.Access.ClientsDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="5" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#10=T:[DAO]DAO.Access.ConsumesDAO" Id="d9edb4fe71df6db7">
+      <Target Target="#11=M:[DAO]DAO.Access.ConsumesDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.Consumes,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="6" />
+      </Target>
+      <Target Target="#12=M:[DAO]DAO.Access.ConsumesDAO::Create(VO.Entities.Consumes)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="7" />
+      </Target>
+      <Target Target="#13=M:[DAO]DAO.Access.ConsumesDAO::Update(VO.Entities.Consumes)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="8" />
+      </Target>
+      <Target Target="#14=M:[DAO]DAO.Access.ConsumesDAO::Delete(VO.Entities.Consumes)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="9" />
+      </Target>
+      <Target Target="#15=M:[DAO]DAO.Access.ConsumesDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="10" />
+      </Target>
+      <Target Target="#16=M:[DAO]DAO.Access.ConsumesDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="11" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#17=T:[DAO]DAO.Access.RechargesDAO" Id="d9edb4fedebcf7ae">
+      <Target Target="#18=M:[DAO]DAO.Access.RechargesDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.Recharges,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="12" />
+      </Target>
+      <Target Target="#19=M:[DAO]DAO.Access.RechargesDAO::Create(VO.Entities.Recharges)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="13" />
+      </Target>
+      <Target Target="#20=M:[DAO]DAO.Access.RechargesDAO::Update(VO.Entities.Recharges)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="14" />
+      </Target>
+      <Target Target="#21=M:[DAO]DAO.Access.RechargesDAO::Delete(VO.Entities.Recharges)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="15" />
+      </Target>
+      <Target Target="#22=M:[DAO]DAO.Access.RechargesDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="16" />
+      </Target>
+      <Target Target="#23=M:[DAO]DAO.Access.RechargesDAO::GetRechargesByUserId(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="17" />
+      </Target>
+      <Target Target="#24=M:[DAO]DAO.Access.RechargesDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#25=T:[DAO]DAO.Access.RolesDAO" Id="d9edb4fef3589b20">
+      <Target Target="#26=M:[DAO]DAO.Access.RolesDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="19" />
+      </Target>
+      <Target Target="#27=M:[DAO]DAO.Access.RolesDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.Roles,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="20" />
+      </Target>
+      <Target Target="#28=M:[DAO]DAO.Access.RolesDAO::Create(VO.Entities.Roles)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="21" />
+      </Target>
+      <Target Target="#29=M:[DAO]DAO.Access.RolesDAO::Update(VO.Entities.Roles)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="22" />
+      </Target>
+      <Target Target="#30=M:[DAO]DAO.Access.RolesDAO::Delete(VO.Entities.Roles)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="23" />
+      </Target>
+      <Target Target="#31=M:[DAO]DAO.Access.RolesDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="24" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#32=T:[DAO]DAO.Access.RolesUserDAO" Id="d9edb4fe9ff7edf2">
+      <Target Target="#33=M:[DAO]DAO.Access.RolesUserDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.RolesUser,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="25" />
+      </Target>
+      <Target Target="#34=M:[DAO]DAO.Access.RolesUserDAO::Create(VO.Entities.RolesUser)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="26" />
+      </Target>
+      <Target Target="#35=M:[DAO]DAO.Access.RolesUserDAO::Update(VO.Entities.RolesUser)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="27" />
+      </Target>
+      <Target Target="#36=M:[DAO]DAO.Access.RolesUserDAO::Delete(VO.Entities.RolesUser)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="28" />
+      </Target>
+      <Target Target="#37=M:[DAO]DAO.Access.RolesUserDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="29" />
+      </Target>
+      <Target Target="#38=M:[DAO]DAO.Access.RolesUserDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="30" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#39=T:[DAO]DAO.Access.SettingsDAO" Id="d9edb4fe177b206e">
+      <Target Target="#40=M:[DAO]DAO.Access.SettingsDAO::Create(VO.Entities.Settings)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="31" />
+      </Target>
+      <Target Target="#41=M:[DAO]DAO.Access.SettingsDAO::Update(VO.Entities.Settings)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="32" />
+      </Target>
+      <Target Target="#42=M:[DAO]DAO.Access.SettingsDAO::Delete(VO.Entities.Settings)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="33" />
+      </Target>
+      <Target Target="#43=M:[DAO]DAO.Access.SettingsDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.Settings,System.Boolean}}, System.Int32, System.Int32, System.String[])">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="34" />
+      </Target>
+      <Target Target="#44=M:[DAO]DAO.Access.SettingsDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="35" />
+      </Target>
+      <Target Target="#45=M:[DAO]DAO.Access.SettingsDAO::GetByKey(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="36" />
+      </Target>
+      <Target Target="#46=M:[DAO]DAO.Access.SettingsDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="37" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#47=T:[DAO]DAO.Access.UserDAO" Id="d9edb4fe4cfe3dcd">
+      <Target Target="#48=M:[DAO]DAO.Access.UserDAO::Get(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="38" />
+      </Target>
+      <Target Target="#49=M:[DAO]DAO.Access.UserDAO::Create(VO.Entities.User)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="39" />
+      </Target>
+      <Target Target="#50=M:[DAO]DAO.Access.UserDAO::Update(VO.Entities.User)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="40" />
+      </Target>
+      <Target Target="#51=M:[DAO]DAO.Access.UserDAO::Search(System.Linq.Expressions.Expression{[mscorlib]System.Func{[VO]VO.Entities.User,System.Boolean}})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="41" />
+      </Target>
+      <Target Target="#52=M:[DAO]DAO.Access.UserDAO::Delete(VO.Entities.User)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="42" />
+      </Target>
+      <Target Target="#53=M:[DAO]DAO.Access.UserDAO::Read(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="43" />
+      </Target>
+      <Target Target="#54=M:[DAO]DAO.Access.UserDAO::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="44" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#55=M:[VO]VO.ExceptionHandler.PrintExceptionAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#56=2" Description="#57=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+</Symbols>

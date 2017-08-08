@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Registro de clientes</title>
+    <link href="../Styles/Styles.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+    <script src="../Js/RegisterClients.js"></script>
+</head>
+<body>
+    <div class="Container">
+        <div class="Header">
+            <div class="Logo">
+                <img src="../Images/Phone.jpg" alt="Alternate Text" />
+            </div>
+        </div>
+        <div class="Main">
+            <div>
+                <h1>Registro de cliente</h1>
+            </div>
+            <div class="form">
+
+                <form id="registerForm" action="/" method="post">
+
+                    <div class="box">
+                        <div class="boxLabel">Nombre de usuario</div>
+                        <div class="boxLeft">
+                            <input type="text" id="userName" required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Nombre</div>
+                        <div class="boxLeft">
+                            <input type="text" id="name"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Apellido</div>
+                        <div class="boxLeft">
+                            <input type="text" id="lastName"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Cedula</div>
+                        <div class="boxLeft">
+                            <input type="text" id="NUI"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Telefono</div>
+                        <div class="boxLeft">
+                            <input type="text" id="Phone"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Direccion</div>
+                        <div class="boxLeft">
+                            <input type="text" id="address"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Email</div>
+                        <div class="boxLeft">
+                            <input type="email" id="Email"  required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">Contraseña</div>
+                        <div class="boxLeft">
+                            <input type="password" id="Pass1" required />
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="boxLabel">repita la contraseña</div>
+                        <div class="boxLeft">
+                            <input type="password" id="Pass2" required />
+                        </div>
+                    </div>
+
+                    <input id="createClient" class="button" type="button" name="send" value=" Enviar" />
+                </form>
+
+
+                <div id="Validator"></div>
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\bin\Release\Data.dacpac
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\bin\Release\Data.dll
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\bin\Release\Data.pdb
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\Model.xml
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\refactor.xml
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\postdeploy.sql
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\predeploy.sql
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\Data.dll
+C:\Users\Kenshin090\Documents\Visual Studio 2012\Projects\EmpresaTelefonica\Data\obj\Release\Data.pdb

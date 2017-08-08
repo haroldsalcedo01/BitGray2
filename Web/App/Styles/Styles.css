@@ -1,0 +1,202 @@
+﻿body
+{
+    background-color: gray;
+    margin: 10px;
+    width: 100%;
+    font-family:'Arial Unicode MS';
+}
+
+.Container
+{
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+}
+
+
+
+.Header
+{
+    background-color: white;
+    margin: 20px;
+    height: 200px;
+}
+
+.Main
+{
+    background-color:gray;
+    margin:20px;
+    height:auto;
+}
+
+    .Main h3
+    {
+        padding:15px;
+        text-align:center;
+    }
+
+    .Main h1
+    {
+        padding:15px;
+        text-align:center;
+    }
+
+    .Main input
+    {
+        margin:5px;
+    }
+
+
+.InitialForm
+{
+    width:auto;  
+    padding:5px;
+    margin:20px;
+}
+
+.Logo
+{
+    display: table;
+    width: 100px;
+    height: 100px;    
+}
+
+    .Logo img
+    {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+    }
+
+.form
+{
+ 
+}
+
+.box
+{
+   
+    margin-left:25%;
+    margin-right:25%;
+    display: inline-block;
+    margin: 2px;
+}
+
+.boxLabel
+{
+    margin: 10px;
+    float:left;
+    color:white;
+}
+
+.button
+{
+    border-radius:2px;
+
+}
+
+    .button:hover
+    {
+        background-color:gray;
+    }
+
+
+.boxLeft
+{
+    float: left;
+    margin:10px;
+}
+
+
+.Menu 
+{
+    display:inline-block;
+    margin:3px;
+}
+
+    .Menu ul 
+    {        
+        list-style-type: none;
+        width:100%;
+    }
+
+    .Menu li 
+    {
+        background-color:white;
+        float:left;
+        padding: 10px;
+    }
+
+        .Menu li:hover 
+        {
+            background-color:whitesmoke;        
+        }
+
+    .Menu a 
+    {
+        text-decoration: none
+    }
+
+
+.grid 
+{
+    background-color:white;    
+    margin:10px;
+}
+
+.headerGrid 
+{
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-radius: 2px;
+    background-color:lightgray;
+    color: red;   
+    margin:4px;
+    align-content:center;
+}
+
+.rowGrid 
+{
+    display: inline-block;
+    border-top: 1px;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-right: 1px;
+    border-radius: 2px;
+    background-color:lightgray;
+    color: black;   
+    margin:4px;
+    align-content:center;
+}
+
+.headerGridItem 
+{
+    float:left;
+    margin:2px;
+    padding: 2px;
+    width:200px;
+    text-align:center;
+    border:2px solid black;
+    height:80px;
+    vertical-align:central;
+}
+
+.formRecharge 
+{
+    padding:10px;
+    margin:10px;
+}
+
+.UserNameLabel {
+    color:red;
+    float:left;
+}
+
+.BalanceLabel {
+    float:left;
+}
